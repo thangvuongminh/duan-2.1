@@ -9,7 +9,7 @@ body {
     font-family: "Poppins", sans-serif;
 }
 .content {
-    width: 1140px;
+    width: 1170px;
     margin-left: auto;
     margin-right: auto;
     max-width: calc(100% - 48px);
@@ -79,6 +79,10 @@ header .body {
     padding-right: 8px;
     margin-right: 16px;
 }
+.action-link:hover {
+    opacity: 0.9;
+    text-shadow: 1px 0 0 currentColor;
+}
 .action .btn {
     font-size: 1.6rem;
     font-weight: 600;
@@ -88,6 +92,9 @@ header .body {
     border: 1px solid #1ebfc1;
     border-radius: 6px;
     padding: 12px 30px;
+}
+.action .btn:hover {
+    background-color: #535353;
 }
 .nav ul li:hover a {
     opacity: 0.9;
@@ -347,6 +354,7 @@ header .body {
 }
 .listcourse .item {
     position: relative;
+    cursor: pointer;
 }
 .listcourse .item .courseoline {
     width: 359px;
@@ -419,7 +427,7 @@ header .body {
 }
 .listcourse {
     display: flex;
-    justify-content: space-between;
+    gap: 47px;
 }
 .prices-desc .desc::before {
     content: "";
